@@ -115,7 +115,7 @@ let questions = [
 
     let result = `امتیاز شما: ${score} از ${questions.length} (${percent.toFixed(0)}%)`;
 
-    let msg = percent >= 80 ? "عالی بودی 😎" : percent >= 50 ? "خوبی ولی جای پیشرفت داری 💪" : "باید بیشتر تمرین کنی 😬";
+    let msg = percent >= 80 ? "عالی بودی" : percent >= 50 ? "خوبی ولی جای پیشرفت داری" : "باید بیشتر تمرین کنی ";
     document.getElementById("result-box").innerHTML = result + "<br>" + msg;
 
     document.getElementById("result-box").style.display = "block";
